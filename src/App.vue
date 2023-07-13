@@ -10,23 +10,23 @@ const weather = "t"
       <h1 class="text-3xl">{{ location }}</h1>
 
       <template v-if="weather == 's'">
-        <h2 class="text-2xl" >Weather: Sunny</h2>
+        <h2 class="text-2xl">Weather: Sunny</h2>
         <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7911203/weather-icon-md.png" alt="">
       </template>
 
       <template v-if="weather == 'pc'">
-      <h2 class="text-2xl" >Weather: Partly Cloudy</h2>
-      <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912718/weather-icon-md.png" alt="">
+        <h2 class="text-2xl">Weather: Partly Cloudy</h2>
+        <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912718/weather-icon-md.png" alt="">
       </template>
 
       <template v-if="weather == 'r'">
-      <h2 class="text-2xl" >Weather: Rainy</h2>
-      <img  class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7913380/weather-icon-md.png" alt="">
-      </template>  
+        <h2 class="text-2xl">Weather: Rainy</h2>
+        <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7913380/weather-icon-md.png" alt="">
+      </template>
 
       <template v-if="weather == 't'">
-      <h2 class="text-2xl">Weather: Thunderstorm</h2>
-      <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912589/weather-icon-md.png" alt="">
+        <h2 class="text-2xl">Weather: Thunderstorm</h2>
+        <img class="w-32" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7912589/weather-icon-md.png" alt="">
       </template>
     </div>
   </section>
